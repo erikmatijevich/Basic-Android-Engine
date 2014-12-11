@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Programmer" tilewidth="32" tileheight="32">
+  <properties>
+   <property name="break" value="0"/>
+   <property name="move" value="0"/>
+  </properties>
+  <image source="../Downloads/programmer.png" width="128" height="128"/>
+  <tile id="0">
+   <properties>
+    <property name="break" value="1"/>
+    <property name="move" value="0"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="break" value="0"/>
+    <property name="move" value="1"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="break" value="0"/>
+    <property name="move" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztwwEJAAAMBKGD7995QabgqqmqPnp4QgbB
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMArIB0xIeKDsx8YeKECuGxgH2A3Y7KfETYTcwDTAGAA8lABU
+  </data>
+ </layer>
+</map>
